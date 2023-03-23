@@ -80,6 +80,12 @@ html,
   padding: 0;
 }
 
+.page {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
 body {
   display: flex;
   background-color: #141b1c;
