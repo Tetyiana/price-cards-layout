@@ -58,6 +58,19 @@
   align-items: center;
   font-size: 14px;
 }
+.price-card__rectangle {
+  background-color: #DC3F45;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  width: 147px;
+  height: 25px;
+  line-height: 25px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 32px;
+  right: -30px;
+}
 
 html,
 * {
@@ -71,6 +84,8 @@ body {
   display: flex;
   background-color: #141b1c;
   justify-content: center;
+  align-items: center;
+  z-index: 1;
 }
 
 section {
@@ -99,6 +114,10 @@ ul {
 
 .green {
   background-color: #5BB189;
+}
+
+section:nth-child(2) {
+  position: relative;
 }
 
 /*# sourceMappingURL=styles.css.map */
