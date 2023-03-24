@@ -30,6 +30,10 @@ section {
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466)
 }
 
+section:nth-child(2) {
+  overflow: hidden;
+}
+
 ul {
   list-style-type: none;
 }
