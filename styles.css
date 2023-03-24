@@ -97,7 +97,7 @@ section {
   flex-direction: column;
   font-weight: 300;
   color: white;
-  margin-right: 18px;
+  margin: 0 9px;
   width: 380px;
   height: 770px;
   background-color: #334247;
