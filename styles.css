@@ -67,6 +67,18 @@
   align-items: center;
   font-size: 14px;
 }
+.price-card__rectangle {
+  background-color: #DC3F45;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  width: 147px;
+  height: 25px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 32px;
+  right: -32px;
+}
 
 html,
 * {
