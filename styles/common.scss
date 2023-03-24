@@ -18,17 +18,17 @@ body {
   height: 100vh;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  font-weight: 300;
-  color: white;
-  margin: 0 9px;
-  width: 380px;
-  height: 770px;
-  background-color: #334247;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466)
-}
+// section {
+//   display: flex;
+//   flex-direction: column;
+//   font-weight: 300;
+//   color: white;
+//   margin: 0 9px;
+//   width: 380px;
+//   height: 770px;
+//   background-color: #334247;
+//   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466)
+// }
 
 section:nth-child(2) {
   overflow: hidden;

@@ -1,11 +1,23 @@
 .price-card {
-  display: block;
-  text-align: center;
-  margin: 33px 102px;
-  width: 176px;
-  height: 64px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  color: white;
+  margin: 0 9px;
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 
   &__title {
+    display: block;
+    text-align: center;
+    margin: 33px 102px;
+    width: 176px;
+    height: 64px;
+  }
+
+  &__main-title {
     font-size: 35px;
     line-height: 43px;
     font-weight: 700;
